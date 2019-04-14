@@ -5,6 +5,7 @@ from webapp import views
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', views.index),
+    url(r'^home/', views.index),
     url(r'^python/', views.python),
     url(r'^django/', views.django),
     url(r'^mysql/', views.index),
